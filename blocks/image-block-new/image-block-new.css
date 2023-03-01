@@ -1,0 +1,6 @@
+.image-block-new {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}

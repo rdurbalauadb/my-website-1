@@ -1,0 +1,20 @@
+.columns-2-cols > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.columns-2-cols > div div:nth-child(1) {
+    width: 40%;
+    background-color: antiquewhite;
+    text-align: right;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.columns-2-cols > div div:nth-child(2) {
+    width: 60%;
+    background-color: aliceblue;
+    margin-left: 15px;
+}
