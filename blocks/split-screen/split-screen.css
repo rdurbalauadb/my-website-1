@@ -6,15 +6,15 @@
 .columns-2-cols > div div:nth-child(1) {
     width: 40%;
     background-color: antiquewhite;
-    text-align: right;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 5px;
+    color: black;
+    /* display: flex;
+    align-items: center; */
 }
 
 .columns-2-cols > div div:nth-child(2) {
     width: 60%;
+    text-align: right;
     background-color: aliceblue;
-    margin-left: 15px;
+    padding: 5px;
+    width: 100%;
 }

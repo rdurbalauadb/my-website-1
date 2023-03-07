@@ -1,8 +1,45 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
+  background-color: black;
+  color: white;
   font-size: var(--body-font-size-s);
+  max-height: 220px;
 }
+
+footer img {
+  max-height: 47px;
+  max-width: 128px;
+}
+
+footer > div > div > div {
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
+
+footer > div > div > div:first-child {
+  flex: 0 0 80%;
+}
+
+footer > div > div > div:nth-child(2) {
+  flex: 0 0 20%;
+}
+
+footer > div > div > div:nth-child(3) {
+  flex: 0 0 100%;
+}
+
+footer > div > div > div:nth-child(4) {
+  flex: 0 0 100%;
+}
+
+footer > div > div > div:nth-child(5) {
+  flex: 0 0 100%;
+}
+
+/* footer > div > div > p {
+  width: 40%;
+} */
 
 footer .footer {
   max-width: 1200px;
